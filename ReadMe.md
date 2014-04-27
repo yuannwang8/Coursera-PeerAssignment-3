@@ -2,6 +2,7 @@
 
 The run_analysis.R script fulfils the requirements of the Peer Assignment for the Coursera
 "Data Gathering" Class The purpose of this script is to 
+
 1. merge the training and test data sets provided 
 2. extract only the measurements on the mean and standard deviation for each feature measured 
 3. provide appropriately descriptive activity names to each observation 
