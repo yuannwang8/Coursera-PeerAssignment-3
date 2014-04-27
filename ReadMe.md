@@ -17,8 +17,8 @@ URL<-c("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 3. This R script is also placed in the same folder.
 4. This folder is set as the working directory for R.
 
-## Script details:
-There are 6 steps in the script
+## Script details: There are 6 steps in the script
+
 1. Read the features list from features_info.txt into the global environment. Select only Mean and STD readings.  This is done using grep on "mean" and "std".  "meanFreq" as a variable was excluded as it is not explicitly called for in the question.
 2. Read the 6 different activities from activity_labels.txt into the global environment.
 3. Create the data set containing subject, activity and data.  We do this for the test set, then the train set.  Then we merge these two sets to form the final data set.
